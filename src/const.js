@@ -1,1 +1,1 @@
-export const BACKEND_URL = "http://ec2-18-222-222-228.us-east-2.compute.amazonaws.com:8000/"
+export const BACKEND_URL = "https://salty-crag-91726.herokuapp.com/"
