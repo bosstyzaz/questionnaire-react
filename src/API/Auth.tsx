@@ -41,7 +41,7 @@ export function login(email: string, password: string, history: any) {
 }
 
 export const register = async (email: string, password: string, history: any) => {
-  axios.post(`${BACKEND_URL}user/register`, {
+  axios.post(`${BACKEND_URL}user/signup`, {
     email: email,
     password: password
   })
